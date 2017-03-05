@@ -7,8 +7,8 @@ public class Distillation implements Comparable<Distillation>{
     private int VATNumber;
     private int DistillationNumber;
     private int MashPaperNumber;
-    private double HLF;
-    private double GYSZL;
+    private double HLF = 0.0;
+    private double GYSZL = 0.0;
     private Date Bring;
     private Date Took = null;
 
